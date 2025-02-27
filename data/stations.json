@@ -1625,5 +1625,38 @@
 			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Avenue%20Foch"},
 			{"style": "tram", "link": "490878", "line": "3b"}
 		]
-	}
+	},
+
+	"Ternes": {
+        "nom": "Ternes",
+        "lignes": [
+            { "type": "metro", "lines": ["2"] }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Acc%C3%A8s_Station_M%C3%A9tro_Ternes_Place_Ternes_-_Paris_VIII_%28FR75%29_-_2022-01-30_-_4.jpg/1280px-Acc%C3%A8s_Station_M%C3%A9tro_Ternes_Place_Ternes_-_Paris_VIII_%28FR75%29_-_2022-01-30_-_4.jpg",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Ternes_Place_Ternes_-_Paris_VIII_(FR75)_-_2022-01-30_-_4.jpg",
+        "imageauthor": "Chabe01",
+        "statistiques": [
+            {
+                "lignes": [
+                    { "type": "metro", "lines": ["2"] }
+                ],
+                "ouverture": "7 octobre 1902",
+                "voies": "2",
+                "quais": "2",
+                "zone_tarifaire": "1",
+                "accessible": "Non",
+                "communes": ["Paris (VIII<sup>e</sup>, XVII<sup>e</sup>)"],
+                "frequentation": "2 292 256 voyageurs (2021)"
+            }
+        ],
+        "sorties": [
+            {"numero": "1", "description": "avenue des Ternes"},
+            {"numero": "2", "description": "place des Ternes"},
+            {"numero": "3", "description": "boulevard de Courcelles"}
+        ],
+        "enrail_links": [
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ternes&line=2&sens=Porte:b:Dauphine&stationcode=71367&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ternes&line=2&sens=Nation&stationcode=71367&linecode=C01372&destcode=Nation&destcodealt=false"}
+        ]
+	},
 }
